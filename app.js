@@ -1,9 +1,9 @@
 
 
-const express = require('express');
+import express from 'express';
 const app = express();
 
-app.get('/', (req, res) => {
+app.get('/', (res) => {
   res.send('Bem vindos ao WebAcademy!!');
 });
 
